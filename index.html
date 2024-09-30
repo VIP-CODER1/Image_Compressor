@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE COMPRESSOR</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/41810341995087.57bd505fc7b34.gif');
+            background-size: cover; 
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+   
+    <h1 class="heading"><b>IMAGE COMPRESSOR</b></h1> 
+   <div class="main">
+   
+   
+    <label for="compression">Select Compression Level:</label>
+    <select id="compression">
+        <option value="0.1">10%</option>
+        <option value="0.2">20%</option>
+        <option value="0.3">30%</option>
+        <option value="0.4">40%</option>
+        <option value="0.5"selected>50%</option>
+        <option value="0.6">60%</option>
+        <option value="0.7">70%</option>
+        <option value="0.8">80%</option>
+        <option value="0.9">90%</option>
+    </select>
+    <br><br>
+  
+    <input type="file"id="my_image">
+
+    <span><b>ORIGINAL IMAGE</b></span>
+    <div id="original_image_container"></div>
+    <span><b>COMPRESSED IMAGE</b></span>
+    <div id="compressed_image_container"></div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
