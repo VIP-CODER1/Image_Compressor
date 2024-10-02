@@ -70,4 +70,5 @@ Open a Pull Request
 **Contact**
 Vipul Kumar
 Email: vipulmth1@gmail.com
-Project Link: GitHub Repository
+
+Project Link: [GitHub Repository](https://vip-coder1.github.io/Image_Compressor/)
